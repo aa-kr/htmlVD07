@@ -11,7 +11,7 @@ def edit_profile():
         email = request.form.get('email')
         password = request.form.get('password')
 
-        # Здесь вы можете добавить логику для обработки данных, например, сохранить их в базе данных
+       
 
         # Перенаправляем пользователя на ту же страницу после сохранения
         return redirect(url_for('edit_profile'))
